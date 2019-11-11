@@ -1,10 +1,8 @@
 class GamesController < ApplicationController
   def new
-    @letters
+    @letters = ('A'..'Z').to_a.sample(10)
   end
-
   def score
-    def get_random_string(length=10)
-    source=("A".."Z").to_a
+    raise
   end
 end
